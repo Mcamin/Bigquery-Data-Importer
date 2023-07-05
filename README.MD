@@ -1,5 +1,12 @@
 # Bigquery Data Importer 
 
+## Requirements: 
+- Google cloud bigquery installed
+```
+pip install google-cloud-bigquery
+```
+- 
+
 This is a script that loads rows in json format from a txt file line by line and insert them in a Bigquery Table.
 This script can be used to debug the issues with streaming data from a Pub/Sub Topic to Bigquery using Dataflow.
 
